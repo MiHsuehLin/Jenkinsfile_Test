@@ -7,7 +7,7 @@ pipeline {
         stage('CheckOut') {
 			steps {
 				script {
-    				git url: 'http://172.16.20.31:1080/aztldemo/aztl-demo-zh.git', branch: 'master'
+    				git url: 'https://github.com/MiHsuehLin/Jenkinsfile_Test.git', branch: 'master'
     			}
 			}
 		}
